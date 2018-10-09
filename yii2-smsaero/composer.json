@@ -1,0 +1,25 @@
+{
+    "name": "33evgenyy33/yii2-smsaero",
+    "description": "php  class for smsaero api",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "smsaero"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeny",
+            "email": "33evgenyy33@gmail.com",
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "evgenyy33\\smsaero\\": "src"
+        }
+    }
+}
