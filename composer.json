@@ -1,5 +1,5 @@
 {
-    "name": "33evgenyy33/yii2-smsaero",
+    "name": "33evgenyy33/yii2-smsaerov2",
     "description": "php  class for smsaero api",
     "type": "yii2-extension",
     "keywords": [
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "evgenyy33\\smsaero\\": "src"
+            "evgenyy33\\smsaerov2\\": "src"
         }
     }
 }
