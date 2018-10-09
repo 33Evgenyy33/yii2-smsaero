@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "evgenyy33\\smsaerov2\\": "src"
+            "evgenyy33\\smsaerov2\\": ""
         }
     }
 }
