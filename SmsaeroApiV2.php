@@ -69,6 +69,22 @@ class SmsaeroApiV2
     }
 
     /**
+     * Тестовая отправка сообщения
+     * @param $number string|array  - Номер телефона(ов)
+     * @param $text string          - Текст сообщения
+     * @param $channel string       - Канал отправки
+     * @return array
+     */
+    public function test_send($number, $text, $channel){
+        return json_decode(self::curl_post(self::URL_SMSAERO_API . '/sms/testsend/', [
+            is_array($number) ? 'numbers' : 'number' => $number,
+            'sign' => $this->sign,
+            'text' => $text,
+            'channel' => $channel
+        ]), true);
+    }
+
+    /**
      * Проверка статуса SMS сообщения
      * @param id - Идентификатор сообщения
      * @return array
